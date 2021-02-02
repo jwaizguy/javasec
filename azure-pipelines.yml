@@ -19,5 +19,5 @@ steps:
   displayName: 'Run a multi-line script'
 - task: SynopsysPolaris@1
   inputs:
-    polarisService: 'Polaris-Satellite'
+    polarisService: 'ADO-polaris'
     polarisCommand: 'analyze -w --coverity-ignore-capture-failure '
