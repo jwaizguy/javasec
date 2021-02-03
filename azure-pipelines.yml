@@ -21,3 +21,4 @@ steps:
   inputs:
     polarisService: 'ADO-polaris'
     polarisCommand: 'analyze -w --coverity-ignore-capture-failure '
+    
