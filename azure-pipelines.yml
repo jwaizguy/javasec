@@ -24,4 +24,4 @@ steps:
 
 - task: CmdLine@2
   inputs:
-    script: 'echo polaris.yml'
+    script: 'cat polaris.yml'
