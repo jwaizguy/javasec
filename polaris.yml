@@ -32,7 +32,7 @@ analyze:
   coverity:
     cov-analyze:
     - --all
-    - --webapp-security
+    - --enable-audit-mode
 install:
   coverity:
     version: default
