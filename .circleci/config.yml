@@ -23,7 +23,7 @@ jobs:
           command: 
             curl -fsLOS $POLARIS_SERVER_URL/api/tools/polaris_cli-linux64.zip
             unzip -j polaris_cli-linux64.zip -d /tmp
-            /tmp/polaris setup --project-name Jwaizman-igoat  -e shell="mvn -B clean" -b shell="mvn -B package -DskipTests"
+            /tmp/polaris setup --project-name Jwaizman-JAVASEC  -e shell="mvn -B clean" -b shell="mvn -B package -DskipTests"
             /tmp/polaris analyze -w
 workflows:
   # Below is the definition of your workflow.
@@ -33,4 +33,4 @@ workflows:
   test-Polaris:
     jobs:
       - build:
-          context: Polaris 
+          context: Polaris1Demo
