@@ -33,4 +33,4 @@ workflows:
   test-Polaris:
     jobs:
       - build:
-          context: Polaris scan 
+          context: Polaris 
