@@ -7,6 +7,7 @@ import org.springframework.boot.web.servlet.ServletComponentScan;
 import org.springframework.boot.web.support.SpringBootServletInitializer;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
+// Jose is touching this file
 
 
 @ServletComponentScan // do filter
